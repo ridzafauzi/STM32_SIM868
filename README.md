@@ -21,10 +21,9 @@ List of hardwares used :-<br />
 
 ![My Image](images/testbed.jpg)
 
+![My Image](images/debug_viewer.png)
 
-![My Image](images/sscom.png)
-
-
+![My Image](images/inlfuxdb.png)
 
 
 Reference: <br />
