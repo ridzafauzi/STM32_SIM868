@@ -1,5 +1,7 @@
 # STM32_SIM868
-
+This project uses STM32 blue pill to send AT commands to SIM868 module to execute below tasks:-
+1. configure and attach to GPRS network
+2. send message to remote database (influxdb) via HTTP GET
 
 This project was developed with :-<br /> 
 1. STM32CubeMX 6.0.1<br /> 
