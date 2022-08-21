@@ -8,9 +8,10 @@ This project was developed with :-<br />
 List of hardwares used :-<br />
 1. STM32 blue pill 
 2. DC-DC converter module
-3. lithium polymer battery
-4. ST-Link V2 programmer
-5. CH340 USB to Serial
+3. SIMCOM SIM868 GSM module
+4. lithium polymer battery
+5. ST-Link V2 programmer
+6. CH340 USB to Serial
 
 
 ![My Image](images/testbed.jpg)
