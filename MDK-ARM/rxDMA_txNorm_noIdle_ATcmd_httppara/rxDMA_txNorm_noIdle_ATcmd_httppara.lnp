@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"rxdma_txnorm_noidle_atcmd_httppara\startup_stm32f103xb.o"
+"rxdma_txnorm_noidle_atcmd_httppara\main.o"
+"rxdma_txnorm_noidle_atcmd_httppara\gpio.o"
+"rxdma_txnorm_noidle_atcmd_httppara\dma.o"
+"rxdma_txnorm_noidle_atcmd_httppara\usart.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_it.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_msp.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_gpio_ex.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_tim.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_tim_ex.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_uart.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_rcc.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_rcc_ex.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_gpio.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_dma.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_cortex.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_pwr.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_flash.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_flash_ex.o"
+"rxdma_txnorm_noidle_atcmd_httppara\stm32f1xx_hal_exti.o"
+"rxdma_txnorm_noidle_atcmd_httppara\system_stm32f1xx.o"
+"rxdma_txnorm_noidle_atcmd_httppara\retarget_io.o"
+--library_type=microlib --strict --scatter "rxDMA_txNorm_noIdle_ATcmd_httppara\rxDMA_txNorm_noIdle_ATcmd_httppara.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "rxDMA_txNorm_noIdle_ATcmd_httppara.map" -o rxDMA_txNorm_noIdle_ATcmd_httppara\rxDMA_txNorm_noIdle_ATcmd_httppara.axf
