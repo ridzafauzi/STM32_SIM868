@@ -23,7 +23,7 @@ List of hardwares used :-<br />
 
 ![My Image](images/debug_viewer.png)
 
-![My Image](images/influxdb.png)
+![My Image](images/influxdb1.png)
 
 
 Reference: <br />
