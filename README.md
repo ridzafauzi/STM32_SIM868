@@ -3,9 +3,12 @@ This project uses STM32 blue pill to send AT commands to SIM868 module to execut
 1. configure and attach to GPRS network
 2. send message to remote database (influxdb) via HTTP GET
 
+Time series database (influxDB) is used to store the information received from SIM868 module.
+
 This project was developed with :-<br /> 
 1. STM32CubeMX 6.0.1<br /> 
 2. Keil uVision 5.32.0.0<br />
+3. InfluxDB v2
 
 List of hardwares used :-<br />
 1. STM32 blue pill 
@@ -18,10 +21,9 @@ List of hardwares used :-<br />
 
 ![My Image](images/testbed.jpg)
 
+![My Image](images/debug_viewer.png)
 
-![My Image](images/sscom.png)
-
-
+![My Image](images/inlfuxdb.png)
 
 
 Reference: <br />
